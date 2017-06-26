@@ -10,7 +10,7 @@
           <span class="name">{{seller.name}}</span>
         </div>
         <div class="description">
-          {{seller.description}}/{{seller.deliveryTime}}åˆ†é’Ÿé€è¾¾
+          {{seller.description}}/{{seller.deliveryTime}}·ÖÖÓËÍ´ï
         </div>
         <div v-if="seller.supports" class="support">
           <span class="icon" :class="classMap[seller.supports[0].type]  "></span>
@@ -18,7 +18,7 @@
         </div>
       </div>
       <div v-if="seller.supports" class="support-count" @click="showDetail">
-        <span class="count">{{seller.supports.length}}ä¸ª</span>
+        <span class="count">{{seller.supports.length}}¸ö</span>
         <i class="icon-keyboard_arrow_right"></i>
       </div>
     </div>
